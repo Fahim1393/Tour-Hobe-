@@ -1,0 +1,203 @@
+/* laptop and pc */
+@media  screen and (max-width : 1200px) {
+    #form_body img{
+        width: 60%;
+    }
+
+    #form_body{
+        width:300px ;
+        border-radius: 30px;
+        margin: 55px auto 100px auto;
+    }
+
+    
+
+    
+}
+
+/* tablet */
+@media  screen and (max-width : 1024px) {
+    #banner_one_contents{
+        width: 760px;
+        margin: 0px auto 80px auto;
+    }
+
+    .text h1{
+        font-size: 50px; 
+        font-weight: bold;
+        width: 100%;
+        color: #EBDCFF;
+    }
+
+    .btn_one{
+        padding: 12px 26px;
+        
+    }
+
+    .btn_two{
+        padding: 12px 26px; 
+    }
+
+    #banner_two_contents{
+        width: 67.5%;
+        margin: 0px auto 80px auto;
+    }
+
+    .headings h4{
+        font-size: 18px;
+        letter-spacing: 2.5px;
+        margin-bottom: 15px;
+    }
+
+    .headings h2{
+        font-size: 30px;
+        margin-top:10px ;
+    }
+
+    .headings h2 span{
+        font-size: 38px;
+    }
+
+    #cards{
+        display: flex;
+        flex-direction: column;
+        margin-top:40px ;
+    }
+
+    .card_content{
+        padding: 15px 45px;
+        width:200px ;
+        border-radius: 20px;
+    }
+
+    .card_content img{
+        margin-bottom: 20px;
+    }
+
+    .card_content h2{
+        font-size: 20px ;
+        margin-bottom:15px ;
+    }
+
+    #story_card{
+        display: flex;
+        flex-direction: column;
+        margin:90px ;
+        padding: 30px;
+    }
+
+    .card_image{ 
+        margin:0px 20px 0px 0px ;
+    }
+
+    .card_image img{
+        width: 200px;
+    }
+
+    .card_text_image *{
+        margin-bottom: 20px;
+    }
+
+    .btn_three a{
+        padding: 11px 25px;
+    }
+
+    #contries_list{
+        margin-top: 3%;   
+    }
+
+    #contries_list h2{
+        padding: 20px;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    #conclusion{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+
+    #form_body{
+        width:250px ;
+        border-radius: 25px;
+        margin: 50px auto 95px auto;
+    }
+
+    #form_body img{
+        width: 40%;
+    }
+
+    #about p span{
+        font-size: 50px;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    #about h1{
+        font-size:30px ;
+    }
+
+    .card_content img{
+        height: 70px;
+        width: 70px;
+    }
+
+}
+
+/* mobile */
+@media  screen and (max-width : 640px) {
+
+    #banner_one_contents{
+        width: 370px;
+        margin: 0px auto 40px auto;
+    }
+
+    .text h1{
+        font-size: 30px; 
+        font-weight: bold;
+        width: 100%;
+        color: #EBDCFF;
+    }
+
+    .btn_one{
+        padding: 8px 16px;
+        
+    }
+
+    .btn_two{
+        padding: 8px 16px; 
+    }
+
+    .text p {
+        font-weight: medium;
+        font-size: 14px;
+        color: #ece9e9;
+    }
+    
+   
+
+    #form_body img{
+        width: 10%;
+    }
+
+    #about p span{
+        font-size: 25px;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    #about h1{
+        font-size:15px ;
+    }
+
+    .card_content img{
+        height: 50px;
+        width: 50px;
+    }
+}

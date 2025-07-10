@@ -1,0 +1,284 @@
+    body{
+        min-height: 100vh;
+        background-image:linear-gradient(#ffffff,#87a3d4) ;
+        
+    }
+
+    *{
+       font-family: "Plus Jakarta Sans", sans-serif;
+       margin: 0;
+       padding: 0;
+    }
+
+    #banner_one_contents{
+        background-color: #FFFFFF,#EBDCFF;
+        margin: 0px auto 120px auto;
+        width: 87.5%;
+        border : 2px solid #01223641 ;
+        padding : 50px 50px ;
+        background-image: url("../images/pexels-photoklickr-78359-244517.jpg") ;
+        background-size: cover;
+        width: 1430px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0%;
+    }
+
+    .text h1{
+        font-size: 65px; 
+        font-weight: bold;
+        width: 50%;
+        color: #EBDCFF;
+    }
+
+    .text h1 span {
+        color: #2a0523; 
+    }
+
+    .text p {
+        font-weight: medium;
+        font-size: 18px;
+        color: #2b0404;
+    }
+
+    .btn_one{
+        background-color: #1280b7;
+        border-radius: 30%;
+        padding: 16px 32px;
+        
+        cursor: pointer;
+        margin-right: 20px;
+        
+    }
+
+    .btn_one a{
+        color:white; 
+    }
+    
+
+    .btn_two{
+        background-color: #1280b7;
+        border-radius: 30%;
+        padding: 16px 32px;
+        color: white;
+        cursor: pointer;
+        margin-right: 20px; 
+    }
+
+    #banner_one_contents *{
+        margin-bottom: 20px;
+    }
+
+
+    
+
+    #banner_two_contents{
+        width: 87.5%;
+        margin: 0px auto 120px auto;
+    }
+
+    .headings{
+        text-align: center;
+    }
+
+    .headings h4{
+        color: #5b0b4c ;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .headings h2{
+        font-weight: bold;
+        font-size: 40px;
+        margin-top:14px ;
+    }
+
+    .headings h2 span{
+        font-weight: bold;
+        font-size: 48px;
+        color: crimson;
+    }
+
+    #cards{
+        display: flex;
+        justify-content: space-between;
+        color: #d2dff5;
+        gap: 30px;
+        margin-top:60px ;
+    }
+
+    .card_content{
+        background-color: rgb(132, 200, 232);
+        padding: 20px 60px;
+        text-align: center;
+        width:300px ;
+        border-radius: 30px;
+    }
+
+    .card_content img{
+        margin-bottom: 30px;
+    }
+
+    .card_content img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .card_content h2{
+        font-weight:semibold;
+        font-size: 28px ;
+        margin-bottom:20px ;
+        color: #d2dff5;
+    }
+
+    .card_content p{
+        color: #1e0a0a;
+    }
+
+
+    #story_card{
+        display: flex;
+        justify-content: space-between;
+        margin:120px ;
+        background-color: rgb(13, 13, 67);
+        padding: 48px;
+        border-radius: 24px;
+        gap: 20px;
+        color: #d2dff5;
+    }
+
+    .card_image{
+        border-radius:  30%; 
+        margin:0px 32px 0px 0px ;
+    }
+
+    .card_image img{
+        width: 300px;
+    }
+
+    .card_text_image *{
+        margin-bottom: 30px;
+    }
+
+    .btn_three a{
+        background-color: #4401a8;
+        padding: 15px 30px;
+        color: #d2dff5;
+    }
+
+    #contries_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 5%;
+        
+    }
+
+    #contries_list h2{
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+    }
+
+    #conclusion{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px auto 50px auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        background-color: #072861;
+        background-size: cover;
+        align-items: center;
+    }
+
+    .help , .contact *{
+        color: white;
+    }
+
+    #register_body{
+        background-image: url("../images/cox\'s.jpg") ;
+        background-size: cover;
+        
+    }
+
+    #form_body{
+        background-color: #d2dff5;
+        padding: 20px 60px;
+        text-align: center;
+        width:300px ;
+        border-radius: 30px;
+        margin: 55px auto 100px auto;
+        font-weight: bold;
+        
+    }
+
+    .submit_button{
+        background-color: #03061b;
+        padding: 16px 32px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    #about_us{
+        background-color: #87a3d4;
+    }
+
+    #about{
+        
+        margin:120px ;
+        padding: 48px;
+        
+    }
+
+    #about h1{
+        color: #061046;
+    }
+
+    #about p span{
+        font-weight: bold;
+        font-size: 70px;
+    }
+
+    #about p {
+        font-size: 30px;
+    }
+
+    
+
+    img{
+        width : 100%
+    }
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
